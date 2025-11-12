@@ -1,0 +1,78 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FitRise — Fitness & Training</title>
+  <link rel="stylesheet" href="fitness.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">FR</div>
+        <div>
+          <div style="font-weight:800">FitRise</div>
+          <div class="subtext">Strength • Mobility • Mind</div>
+        </div>
+      </div>
+      <div class="menu-btn" id="menu-btn">☰</div>
+      <nav id="nav">
+        <a href="#classes">Classes</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="booking.html">Book Now</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="pill">New — 30 day challenge</div>
+          <h1>Train smarter, live stronger.<br><span class="highlight">Personalized plans & group classes</span></h1>
+          <p>Fully responsive fitness site — workouts, classes, certified trainers & nutrition guidance.</p>
+          <div class="cta-row">
+            <a class="btn" href="booking.html?type=general">Join Now</a>
+            <a class="card" href="#classes">Explore Classes</a>
+          </div>
+        </div>
+        <aside class="card">
+          <img src="" alt="">
+        </aside>
+      </section>
+
+      <section id="classes">
+        <h2>Popular Classes</h2>
+        <div id="classesGrid" class="grid"></div>
+      </section>
+
+      <section id="trainers">
+        <h2>Meet Our Trainers</h2>
+        <div id="trainersContainer" class="trainers"></div>
+      </section>
+
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <div id="pricingContainer" class="pricing"></div>
+      </section>
+
+      <section id="contact">
+        <h2>Get Started</h2>
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Full Name" required>
+          <input type="email" id="email" placeholder="Email" required>
+          <textarea id="message" placeholder="Message"></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      © 2025 FitRise — Built with ❤️
+    </footer>
+  </div>
+
+  <script src="fitness.js"></script>
+</body>
+</html>

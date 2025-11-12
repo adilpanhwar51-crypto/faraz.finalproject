@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Booking — FitRise</title>
+  <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">FR</div>
+        <div>
+          <div style="font-weight:800">FitRise</div>
+          <div class="subtext">Strength • Mobility • Mind</div>
+        </div>
+      </div>
+      <nav>
+        <a href="fitness.html#classes">Classes</a>
+        <a href="fitness.html#trainers">Trainers</a>
+        <a href="fitness.html#pricing">Pricing</a>
+        <a href="fitness.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="booking-card">
+      <h2>Book Your Session</h2>
+      <form id="booking-form">
+        <label>Selected:</label>
+        <input type="text" id="selectedItem" readonly>
+
+        <label>Your Name</label>
+        <input type="text" id="userName" required>
+
+        <label>Your Email</label>
+        <input type="email" id="userEmail" required>
+
+        <label>Date</label>
+        <input type="date" id="date" required>
+
+        <label>Time</label>
+        <input type="time" id="time" required>
+
+        <label>Notes (optional)</label>
+        <textarea id="notes"></textarea>
+
+        <button class="btn" type="submit">Confirm Booking</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="booking.js"></script>
+</body>
+</html>
